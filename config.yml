@@ -1,5 +1,5 @@
 #cfg
 version: 0.0.1
 route: /pages/:title
-erb: /pages/
-haml: /lauouts/_navigation_pages
+erb: pages/
+haml: layouts/_navigation_pages.html.haml
