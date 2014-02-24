@@ -1,3 +1,7 @@
 <%= content_for :title, 'ხშირად დასმული კითხვები' %>
 
-<h2><small>გვერდი დამუშავების პროცესშია</small> ;(</h2>
+<h2>
+  <small>გვერდი დამუშავების პროცესშია</small> ;(
+  <br/>
+  <a href="http://github.com/webfont-ge/website-static">შემცვალე!</a>
+</h2>
