@@ -1,2 +1,4 @@
-permalink: /:title
 version: 0.0.1
+route: /pages/:title
+erb: /pages/
+haml: /lauouts/_navigation_pages
