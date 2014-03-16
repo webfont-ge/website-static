@@ -1,7 +1,29 @@
 <%= content_for :title, 'პროგრამული ინტერფეისი' %>
 
-<h2>
-  <small>გვერდი დამუშავების პროცესშია</small> ;(
-  <br/>
-  <a href="http://github.com/webfont-ge/website-static">შემცვალე!</a>
-</h2>
+<h2><small>პროგრამული ინტერფეისი</small></h2>
+
+<br/>
+
+ამ მომენტისთვის არ არსებობს სრული API, თუმცა რაღაც (სავარაუდოდ უსაგბელო) გვაქვს..
+<br><br/>
+<pre>#%RAML 0.8
+title: Webfont.ge API
+version: v1
+baseUri: http://api.webfont.ge/{version}
+/fonts:
+    get:
+      description:
+        ყველა ფონტის მიღება
+/fonts/{oid}:
+    get:
+      description:
+        კონკრეტული ფონტის მიღება
+/fonts/name/{name}:
+    get:
+      description:
+        ფონტის ძებნა სახელით</pre>
+<br/>
+
+იმ შემთხვევაში თუ გესაჭიროებათ სერვისის სრული API და გაქვთ რაიმე სახის შემოთავაზება შეგიძლიათ მოგვწეროთ.
+
+<br/><br/>
